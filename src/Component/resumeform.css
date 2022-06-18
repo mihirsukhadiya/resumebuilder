@@ -1,0 +1,162 @@
+.mainDiv {
+  background-color: #eee;
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+.titleForm {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  padding-top: 20px;
+}
+.formData {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+.formGroup {
+  margin-top: 1rem;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.inputValue {
+  height: 35px;
+  border: 2px solid purple;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 25px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.inputValueDateRange {
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  margin-bottom: 15px;
+}
+.textArea {
+  border: 2px solid purple;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.labelForm {
+  font-size: 35px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+.insideDivLabelForm {
+  font-size: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.inputValue:focus {
+  outline: none !important;
+}
+.buttonSubmit {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonSubmit {
+  transition-duration: 0.4s;
+}
+
+.buttonSubmit:hover {
+  background-color: purple;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+.toggle-switch {
+  position: relative;
+  width: 75px;
+  display: inline-block;
+  text-align: left;
+  top: 8px;
+}
+.checkbox {
+  display: none;
+}
+.label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+}
+.inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.inner:before,
+.inner:after {
+  float: left;
+  width: 50%;
+  height: 36px;
+  padding: 0;
+  line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.inner:before {
+  content: "Yes";
+  padding-left: 10px;
+  background-color: #060;
+  color: #fff;
+}
+.inner:after {
+  content: "No";
+  padding-right: 10px;
+  background-color: #bbb;
+  color: #fff;
+  text-align: right;
+}
+.switch {
+  display: block;
+  width: 24px;
+  margin: 5px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 40px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.checkbox:checked + .label .inner {
+  margin-left: 0;
+}
+.checkbox:checked + .label .switch {
+  right: 0px;
+}
